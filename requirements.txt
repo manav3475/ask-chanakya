@@ -1,0 +1,53 @@
+#Langchain Core
+Langchain
+Langchain-Core
+
+#OpenAI Integration
+openai
+langchain-openai
+
+#text spliter
+langchain-experimental
+
+#langchain-community
+langchain-community
+
+#anthropic Integration
+langchain-anthropic
+
+#google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+#HuggingFace Integration    
+Langchain-HuggingFace
+transformers
+HuggingFace-hub
+
+#Environment Variables management
+python-dotenv
+
+#machine learning utilities
+scikit-learn
+numpy
+
+#ui
+streamlit
+
+#graphs
+grandalf
+
+
+# Core ML / HF libs
+torch==2.8.0                 # PyTorch (CPU/GPU) — install with special index on Windows if CPU-only. :contentReference[oaicite:0]{index=0}
+torchvision==0.23.0          # Matches torch 2.8.0. :contentReference[oaicite:1]{index=1}
+torchaudio==2.8.0            # Matches torch 2.8.0. :contentReference[oaicite:2]{index=2}
+
+transformers==4.56.2         # Hugging Face Transformers. :contentReference[oaicite:3]{index=3}
+huggingface-hub==0.35.3      # HF Hub client (used by InferenceClient, model download, etc.). :contentReference[oaicite:4]{index=4}
+
+langchain-huggingface==0.3.1 # LangChain <-> Hugging Face integration. :contentReference[oaicite:5]{index=5}
+langchain==0.3.27            # Core LangChain library (if you use it). :contentReference[oaicite:6]{index=6}
+
+# Optional / useful extras
+sentence-transformers==5.1.1  # If you need embeddings utilities. :contentReference[oaicite:7]{index=7}
