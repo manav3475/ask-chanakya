@@ -82,7 +82,7 @@ streamlit run streaming_frontend_threading.py
 The project uses the following libraries:
 
 -   `Langchain`
--   `langgraph`
+-   `Langgraph`
 -   `Langchain-Core`
 -   `OpenAI`
 -   `Langchain-OpenAI`
