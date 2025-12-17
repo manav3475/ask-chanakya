@@ -40,6 +40,8 @@ streamlit
 #graphs
 grandalf
 
+#sql_lite_langgraph
+langgraph-checkpoint-sqlite
 
 # Core ML / HF libs
 torch==2.8.0                 # PyTorch (CPU/GPU) — install with special index on Windows if CPU-only. :contentReference[oaicite:0]{index=0}
