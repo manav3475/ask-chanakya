@@ -68,9 +68,28 @@ Run the threaded streaming chatbot interface:
 streamlit run streaming_frontend_threading.py
 ```
 
+## Database Backend
+
+The project includes a database backend implemented in `langgraph_database_backend.py`. This backend handles the following functionalities:
+
+-   **State Management**: Stores and retrieves chatbot states using SQLite.
+-   **Thread Management**: Supports multiple conversation threads by saving thread-specific states.
+-   **Integration**: Works seamlessly with the Streamlit frontends to load and save conversation histories.
+
+### Running the Database Backend
+
+To start the database backend, run the following command:
+
+```bash
+python langgraph_database_backend.py
+```
+
+Ensure that the `chatbot.db` SQLite database file is in the project directory. If it does not exist, it will be created automatically.
+
 ## File Structure
 
 -   `langgraph_backend.py`: Backend logic for the chatbot.
+-   `langgraph_database_backend.py`: Database backend for state and thread management.
 -   `streamlit_frontend.py`: Basic Streamlit frontend.
 -   `streamlit_frontend_streaming.py`: Streamlit frontend with streaming responses.
 -   `streaming_frontend_threading.py`: Streamlit frontend with threaded streaming responses.
